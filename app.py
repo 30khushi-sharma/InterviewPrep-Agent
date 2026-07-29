@@ -33,8 +33,7 @@ if "feedback_report" not in st.session_state:
 # Load model once
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
-    api_key="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"
-)
+    api_key="key"
 
 
 
