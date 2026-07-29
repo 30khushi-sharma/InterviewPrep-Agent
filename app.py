@@ -33,14 +33,8 @@ if "feedback_report" not in st.session_state:
 # Load model once
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
-    api_key="key"
-
-
-
-
-
-
-
+    api_key="Your key"
+    
 st.set_page_config(page_title="Interview Agent", layout="wide")
 
 # read q file
@@ -340,12 +334,6 @@ elif menu =="Progress Tracker":
         st.subheader("Strong_topics")
         if strong_topics:
          st.success(f"Strong Topics : {topic}")
-        
-        
-        
-      
-      
-      
-      
+          
     st.markdown("Visualize your performance and progress over time.")
         
